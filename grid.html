@@ -10,8 +10,108 @@
 <body>
 	<div class="container">
 		<!--The Grid system in Bootstrap 4 -->
-	</div>
+		<div class="row mt-5">
+			<div class="col-sm-6 col-md-8 col-lg-9 col-xl-10" style="border:1px solid #333">
+				<ul>
+					<li>This is a col 6 for small screens</li>
+					<li>This is a col 8 for medium screens</li>
+					<li>This is a col 9 for large screen</li>
+					<li>This is col 10 for extra-large screens</li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2" style="border:1px solid #333">
+				<ul>
+					<li>This is a col 6 for small screens</li>
+					<li>This is col 4 for medium screens</li>
+					<li>This is col 3 for large screen</li>
+					<li>This is col 2 for extra-large</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Equal width multi row -->
+		<div class="row">
+			<div class="col" style="border:1px solid #333">Equal width</div>
+			<div class="col" style="border:1px solid #333">Equal width</div>
+			<div class="col" style="border:1px solid #333">Equal width</div>
+			<div class="col" style="border:1px solid #333">Equal width</div>
+		</div>
+		<div class="row">
+			<div class="col" style="border:1px solid #333">This is a multi row</div>
+			<div class="col" style="border:1px solid #333">This is a multi row</div>
+			<div class="w-100"></div>
+			<div class="col" style="border:1px solid #333">Equal width Mult</div>
+			<div class="col" style="border:1px solid #333">Equal width Mult</div>
+		</div>
+		<!-- AUTO LAYOUT -->
+		<div class="row">
+			<div class="col" style="border:1px solid #333">Auto layout</div>
+			<div class="col-6" style="border:1px solid #333">Auto layout</div>
+			<div class="col-4" style="border:1px solid #333">Auto layout</div>
+		</div>
+		<!-- EQUAL WIDTH STACKED -->
+		<div class="row">
+			<div class="col-sm" style="border:1px solid #333">Auto layout</div>
+			<div class="col-sm" style="border:1px solid #333">Auto layout</div>
+			<div class="col-sm" style="border:1px solid #333">Auto layout</div>
+		</div>
 
+		<!-- ODERING -->
+		<div class="row">
+			<div class="col order-3" style="border:1px solid #333">Item 1</div>
+			<div class="col order-2" style="border:1px solid #333">Item 2</div>
+			<div class="col order-1" style="border:1px solid #333">Item 3</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4" style="border:1px solid #333">4 col</div>
+			<div class="col-md-4 ml-auto" style="border:1px solid #333">4 col offset 4</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 mr-auto" style="border:1px solid #333">3 col offset 3</div>
+			<div class="col-md-3 mr-auto" style="border:1px solid #333">3 col offset 3</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 m-auto text-center" style="border:1px solid #333">6 col offset 3</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-9" style="border:1px solid #333">Level: 1
+				<div class="row">
+					<div class="col-sm-6" style="border: 1px solid red">Level:2</div>
+					<div class="col-sm-6" style="border: 1px solid red">Level:3</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!--GRID ALIGNMENT-->
+		<!-- Vertical alignment-->
+		<div class="row align-items-start" style="height:200px; border:1px #333 solid">
+			<div class="col">Top Aligned Text</div>
+			<div class="col">Top Aligned Text</div>
+			<div class="col">Top Aligned Text</div>
+		</div>
+		<br>
+		<div class="row align-items-center" style="height:200px; border:1px #333 solid">
+			<div class="col">Center Aligned Text</div>
+			<div class="col">Center Aligned Text</div>
+			<div class="col">Center Aligned Text</div>
+		</div>
+		<br>
+		<div class="row align-items-end" style="height:200px; border:1px #333 solid">
+			<div class="col">End Aligned Text</div>
+			<div class="col">End Aligned Text</div>
+			<div class="col">End Aligned Text</div>
+		</div>
+		<br>
+		<div class="row" style="height:200px; border:1px #333 solid">
+			<div class="col align-self-start">Start Aligned Text</div>
+			<div class="col align-self-center">Center Aligned Text</div>
+			<div class="col align-self-end">End Aligned Text</div>
+		</div>
+		<br>
+		<br>
+
+
+
+	</div>
 
 
 
